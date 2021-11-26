@@ -1,0 +1,11 @@
+{
+  "code": 201,
+  "meta": null,
+  "data": {
+    "id": 1540,
+    "name": "Test Api Automation",
+    "email": "fschfs@omg1.com",
+    "gender": "female",
+    "status": "active"
+  }
+}

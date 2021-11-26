@@ -1,0 +1,50 @@
+[
+  {
+    "os": "Windows",
+    "os_version": "XP",
+    "browser": "opera",
+    "device": null,
+    "browser_version": "12.15",
+    "real_mobile": null
+  },
+  {
+    "os": "Windows",
+    "os_version": "XP",
+    "browser": "opera",
+    "device": null,
+    "browser_version": "12.16",
+    "real_mobile": null
+  },
+  {
+    "os": "Windows",
+    "os_version": "XP",
+    "browser": "chrome",
+    "device": null,
+    "browser_version": "14.0",
+    "real_mobile": null
+  },
+  {
+    "os": "Windows",
+    "os_version": "XP",
+    "browser": "chrome",
+    "device": null,
+    "browser_version": "15.0",
+    "real_mobile": null
+  },
+  {
+    "os": "Windows",
+    "os_version": "XP",
+    "browser": "chrome",
+    "device": null,
+    "browser_version": "16.0",
+    "real_mobile": null
+  },
+  {
+    "os": "Windows",
+    "os_version": "XP",
+    "browser": "chrome",
+    "device": null,
+    "browser_version": "17.0",
+    "real_mobile": null
+  }
+]

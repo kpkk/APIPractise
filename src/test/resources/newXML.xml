@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header>
+        <soap-env:Header xmlns:soap-env="xmlapi_1.0">
+            <wsse:security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+                <user>
+                    <substitute property="username" />
+                </user>
+                <password>
+                    <substitute property="password" />
+                </password>
+            </wsse:security>
+            <requestID>
+                <substitute property="requestId" />
+            </requestID>
+        </soap-env:Header>
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <netw.Network xmlns="xmlapi_1.0">
+            <instanceFullName xmlns="">
+                network:
+                <substitute property="ipAddress" />
+            </instanceFullName>
+            <command xmlns="">
+                command name
+                <substitute property="Id1" />
+                text goes here
+                <substitute property="id2" />
+            </command>
+        </netw.Network>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

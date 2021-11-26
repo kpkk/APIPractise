@@ -1,0 +1,12 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns3:createTicketResponse xmlns="http://cio.att.com/commonheader/v3" xmlns:ns2="http://tktsvc.aots.att.com/ticket" xmlns:ns3="http://aots.att.com/ticket/v1">
+            <WSResponseHeader/>
+            <ns3:createTicketOutput>
+                <ns2:TicketNum>CS0011742</ns2:TicketNum>
+                <ns2:RequestId>34cfafa48744</ns2:RequestId>
+                <ns2:FunctionalArea>GLOBAL_AM</ns2:FunctionalArea>
+            </ns3:createTicketOutput>
+        </ns3:createTicketResponse>
+    </soap:Body>
+</soap:Envelope>
